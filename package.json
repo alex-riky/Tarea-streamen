@@ -4,7 +4,8 @@
   "description": "Emisor/Receptor de video y audio por WebRTC usando Firebase Realtime Database como servidor de señalización",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node --test"
   },
   "dependencies": {
     "express": "^4.19.2"
